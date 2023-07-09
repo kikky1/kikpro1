@@ -4,7 +4,7 @@
 
 /* import css variables file */
 @import url(./partials/variables.css);
-
+@import url(./partials/global.css);
 
 /*  Nav styling  */
 .header-area .main-area .navbar .navbar-brand{
@@ -46,3 +46,39 @@
 }
 
 /*  End Nav styling  */
+
+/*  Start Main styling  */
+
+.site-main .site-banner h3{
+    padding-top: 50%;
+    font-size: 2rem;
+    
+}
+
+.site-main .site-banner h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/*  End Main styling  */
+
