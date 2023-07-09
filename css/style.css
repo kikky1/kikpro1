@@ -1,3 +1,48 @@
 
 /* import fonts.css file */
 @import url(./fonts.css);
+
+/* import css variables file */
+@import url(./partials/variables.css);
+
+
+/*  Nav styling  */
+.header-area .main-area .navbar .navbar-brand{
+    padding: 0 2rem 0 4rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    font-style: italic;
+    font-family: "Roboto", cursive;
+    color:var(--primary-color2);
+
+}
+
+.header-area .main-area .navbar{
+    padding: 1rem 10rem;
+}
+
+.header-area .main-area .nav-item .nav-link{
+    font: normal bold 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1rem;
+    color: var(--title-color);
+    
+}
+
+.header-area .main-area .nav-item .active{
+   background: var(--gradient-color);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+
+}
+
+.header-area .main-area .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+/*  End Nav styling  */
