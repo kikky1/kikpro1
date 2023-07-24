@@ -78,6 +78,25 @@
     width: 90rem;
 }
 
+/* About area*/
+
+.site-main .about-area{
+padding: 5rem 2rem;
+justify-content: center;
+align-items: center;
+}
+
+.site-main .about-area .about-image{
+    padding-top: 4rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    font: normal bold 45px/55px var(--roboto);
+    display: block;
+    letter-spacing: 20px;
+}
+
+/* End About area*/
 
 
 /*  End Main styling  */

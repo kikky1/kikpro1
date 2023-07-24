@@ -24,7 +24,6 @@
     color: whitesmoke;
     transition: background .6s ease;
     box-shadow: var(--box-shadow);
-   
 }
 
 .button.primary-button:hover{
@@ -53,4 +52,9 @@
     background: var(--gradient-color);
     box-shadow: var(--box-shadow);
     color: whitesmoke;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal bold 16px/25px var(--roboto);
 }
