@@ -81,7 +81,7 @@
 /* About area*/
 
 .site-main .about-area{
-padding: 5rem 2rem;
+padding: 1rem 2rem;
 justify-content: center;
 align-items: center;
 }
@@ -97,6 +97,18 @@ align-items: center;
 }
 
 /* End About area*/
+
+/* Brand area*/
+
+.site-main .brand-area .col-lg-4 .first-row > .single-brand{
+  
+}
+
+
+
+
+
+/* End Brand area*/
 
 
 /*  End Main styling  */
