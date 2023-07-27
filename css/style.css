@@ -131,6 +131,9 @@ margin-bottom: 10rem;
     transform: scale(1.1);
 }
 
+.site-main .experience-area .call-area .call-now > h4{
+    outline: none;
+}
 
 
 
