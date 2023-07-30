@@ -131,10 +131,42 @@ margin-bottom: 10rem;
     transform: scale(1.1);
 }
 
-.site-main .experience-area .call-area .call-now > h4{
-    outline: none;
+.site-main .brand-area .experience-area span{
+    display: block;
 }
 
+.site-main .brand-area .experience-area .bg-panel{
+    position: relative;
+    left: 50px; top: -22rem;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+  
+}
+
+.site-main .brand-area .experience-area .years-area{
+   background: url(/img/dot-bg.png) no-repeat 45px 20px;
+   padding: 4rem 0;
+   width: 40rem;
+   height: 18rem;
+   padding-left: 5rem;
+   position: relative;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+     font: normal bold 70px/40px var(--roboto);
+     color: var(--primary-color2);
+     z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+
+}
+
+.site-main .brand-area .experience-area .call-area{
+ padding-left: 5rem;  
+}
 
 
 /* End Brand area*/
