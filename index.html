@@ -291,28 +291,41 @@
             </div>
             <div class="button-group">
                 <button type="button" class="active">All</button>
-                <button type="button">Popular</button>
-                <button type="button">Latest</button>
+                <button type="button" data-filter=".Popular">Popular</button>
+                <button type="button"  data-filter=".latest">Latest</button>
                 <button type="button">Following</button>
                 <button type="button">Upcoming</button>
             </div>
 
-            <div class="row grid">
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                    <div class="our-project">
-                        <div class="img">
-                            <img src="img/project1.jpg" alt="portfolio-1">
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Water design</h4>
-                            <span class="text-secondary">Latest, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-           
-          
+       <div class="row grid">
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+            <div class="img">
+                <img src="img/project1.jpg" alt="portfolio-1" class="img-fluid">
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Waterflow Design</h4>
+                <span class="text-secondary">Latest,portfolio</span>
             </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item Popular">
+            <div class="img">
+                <img src="img/project2.jpg" alt="portfolio-2" class="img-fluid">
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Wall painting</h4>
+                <span class="text-secondary">Popular,portfolio</span>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item Popular">
+            <div class="img">
+                <img src="img/project3.jpg" alt="portfolio-3" class="img-fluid">
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Life Changing</h4>
+                <span class="text-secondary">Popular,portfolio</span>
+            </div>
+        </div>
+       </div>
     </section>
 
 
@@ -332,6 +345,12 @@
     
     <!-------Bootstrap js file-->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!----------Isotope js library-->
+    <script src="vendor/isotope/isotope.min.js"></script>
+
+    <!------js file------->
+    <script src="js/main.js"></script>
 
 </body>
 </html>
